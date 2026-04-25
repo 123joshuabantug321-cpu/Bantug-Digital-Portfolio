@@ -105,7 +105,6 @@
       color: #000;
     }
 
-    /* Circular profile image */
     .profile-img {
       width: 120px;
       height: 120px;
@@ -115,7 +114,6 @@
       box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
     }
 
-    /* Hidden CANVA Section */
     #canva-section {
       display: none;
       text-align: center;
@@ -143,7 +141,6 @@
       color: #000;
     }
 
-    /* Canva Embed Style */
     .canva-container {
       max-width: 900px;
       margin: 20px auto;
@@ -167,18 +164,16 @@
 </head>
 <body>
   <header>
-	<img src="https://giffiles.alphacoders.com/153/153499.gif" alt="BantugPortfolio" class="profile-img" width="200">
-		<div class="header-text">
-			<h1>Joshua's Profile</h1>
-				<p>Welcome to Joshua A. Bantug's Digital Portfolio Compilation!</p>
-				<p>I am Joshua A. Bantug, a graduating Senior High School student of CIT-U.</p>
-			<p>I am interested in pursuing Civil Engineering as my college course, as I am interested in Mathematics.</p>
-		<p>Here are the Digital Portfolios in chronological order:</p>
-	</div>
-</header>
+    <img src="https://giffiles.alphacoders.com/153/153499.gif" alt="BantugPortfolio" class="profile-img" width="200">
+    <div class="header-text">
+      <h1>Joshua's Profile</h1>
+      <p>Welcome to Joshua A. Bantug's Digital Portfolio Compilation!</p>
+      <p>I am Joshua A. Bantug, a graduating Senior High School student of CIT-U.</p>
+      <p>I am interested in pursuing Civil Engineering as my college course, as I am interested in Mathematics.</p>
+      <p>Here are the Digital Portfolios in chronological order:</p>
+    </div>
+  </header>
 
-
-  <!-- MAIN CONTENT -->
   <div id="main-section" class="container">
     <h2>Featured Projects</h2>
     <div class="projects">
@@ -193,7 +188,7 @@
 
       <div class="card">
         <h3>Project 2</h3>
-        <p>Case Scenario 1: Improving Sports Performance: Optimizing the Angle of a Soccer Kick </p>
+        <p>Case Scenario 1: Improving Sports Performance</p>
         <div class="links">
           <a onclick="openCanva(1)">CANVA</a>
         </div>
@@ -201,7 +196,7 @@
 
       <div class="card">
         <h3>Project 3</h3>
-        <p>ACTIVITY NO. 11: FREELY FALLING BODY (LABORATORY)</p>
+        <p>Freely Falling Body</p>
         <div class="links">
           <a onclick="openCanva(2)">CANVA</a>
         </div>
@@ -217,9 +212,7 @@
 
       <div class="card">
         <h3>Project 5</h3>
-        <p>Electro Charge</p>
-		<p>And</p>
-		<p>Electroscope</p>
+        <p> Electric Charge and DIY Electroscope</p>
         <div class="links">
           <a onclick="openCanva(4)">CANVA</a>
         </div>
@@ -227,7 +220,7 @@
 
       <div class="card">
         <h3>Project 6</h3>
-        <p>Description of project 6</p>
+        <p>Powering the Last City: Designing Efficient Electrical Systems</p>
         <div class="links">
           <a onclick="openCanva(5)">CANVA</a>
         </div>
@@ -235,52 +228,38 @@
     </div>
   </div>
 
-  <!-- CANVA SECTION -->
-  <div id="canva-section">
-    <div style="display:flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-      <div style="font-size:1.5em; font-weight:bold;">⬇ Scroll Down</div>
-      <a class="back-btn" onclick="goBack()">⬅ Back to Main Menu</a>
-    </div>
-
-    <!-- Canva Embeds with Project Labels moved BELOW -->
-    <div class="canva-container">
-      <iframe id="canva0" loading="lazy" src="https://www.canva.com/design/DAGyY4as-lc/9Git4kLKm0DE3U3Sv4p10g/view?embed" allowfullscreen></iframe>
-      <div class="project-label">Project 1</div>
-    </div>
-    <div class="canva-container">
-      <iframe id="canva1" loading="lazy" src="https://www.canva.com/design/DAGznHg3iJc/GxiM74hlQJ98Q7JjCO7wfw/view?embed" allowfullscreen></iframe>
-      <div class="project-label">Project 2</div>
-    </div>
-    <div class="canva-container">
-      <iframe id="canva2" loading="lazy" src="https://www.canva.com/design/DAG2lSIQcK4/gGhCCBVXY6jFMI1zcaAj-w/view?embed" allowfullscreen></iframe>
-      <div class="project-label">Project 3</div>
-    </div>
-    <div class="canva-container">
-      <iframe id="canva3" loading="lazy" src="https://www.canva.com/design/DAG_nBKPldU/UWR6KTdhTOpkRqKfqT649w/view?embed" allowfullscreen></iframe>
-      <div class="project-label">Project 4</div>
-    </div>
-    <div class="canva-container">
-      <iframe id="canva4" loading="lazy" src="https://www.canva.com/design/DAHE25D-mQU/nEsx5yKVwcXDFgfBfJvXzQ/view?embed" allowfullscreen></iframe>
-      <div class="project-label">Project 5</div>
-    </div>
-    <div class="canva-container">
-      <iframe id="canva5" loading="lazy" src="https://www.canva.com/design/DAGyY4as-lc/9Git4kLKm0DE3U3Sv4p10g/view?embed" allowfullscreen></iframe>
-      <div class="project-label">Project 6</div>
+  <div class="card">
+    <h3>Self-Assessment</h3>
+    <p>Last Assessment</p>
+    <div class="links">
+      <a onclick="openCanva(6)">Assessment</a>
     </div>
   </div>
 
+  <div id="canva-section">
+    <div style="display:flex; justify-content: space-between;">
+      <div>⬇ Scroll Down</div>
+      <a class="back-btn" onclick="goBack()">⬅ Back</a>
+    </div>
+
+    <div class="canva-container"><iframe id="canva0" src="https://www.canva.com/design/DAGyY4as-lc/9Git4kLKm0DE3U3Sv4p10g/view?embed"></iframe><div class="project-label">Project 1</div></div>
+    <div class="canva-container"><iframe id="canva1" src="https://www.canva.com/design/DAGznHg3iJc/GxiM74hlQJ98Q7JjCO7wfw/view?embed"></iframe><div class="project-label">Project 2</div></div>
+    <div class="canva-container"><iframe id="canva2" src="https://www.canva.com/design/DAG2lSIQcK4/gGhCCBVXY6jFMI1zcaAj-w/view?embed"></iframe><div class="project-label">Project 3</div></div>
+    <div class="canva-container"><iframe id="canva3" src="https://www.canva.com/design/DAG_nBKPldU/UWR6KTdhTOpkRqKfqT649w/view?embed"></iframe><div class="project-label">Project 4</div></div>
+    <div class="canva-container"><iframe id="canva4" src="https://www.canva.com/design/DAHE25D-mQU/nEsx5yKVwcXDFgfBfJvXzQ/view?embed"></iframe><div class="project-label">Project 5</div></div>
+    <div class="canva-container"><iframe id="canva5" src="https://www.canva.com/design/DAHH2Ukzgb8/rDzz7yhHmzLfHy_UBTOCMg/view?embed"></iframe><div class="project-label">Project 6</div></div>
+    <div class="canva-container"><iframe id="canva6" src="https://docs.google.com/document/d/11gNgRruZTQREq4vfYZbHfuCgyCCTv8oc/preview"></iframe><div class="project-label">Self-Assessment</div></div>
+  </div>
+
   <footer>
-    © <script>document.write(new Date().getFullYear())</script> Joshua's Portfolio. All Rights Reserved.
+    © <script>document.write(new Date().getFullYear())</script> Joshua's Portfolio
   </footer>
 
   <script>
     function openCanva(index) {
       document.getElementById("main-section").style.display = "none";
       document.getElementById("canva-section").style.display = "block";
-
-      // Scroll to the specific project iframe
-      const iframe = document.getElementById('canva' + index);
-      iframe.scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('canva' + index).scrollIntoView({ behavior: 'smooth' });
     }
 
     function goBack() {
